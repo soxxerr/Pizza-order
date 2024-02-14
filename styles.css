@@ -2,12 +2,56 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to right, #ffac6f, #dcff5f, #ff0062);
   }
+
+  header {
+    background: linear-gradient(to right, #e7ff8e, #000000, #1cef97);
+    padding: 15px 0;
+    text-align: center;
+    width: 800px;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #d14836; /* Darker tomato color on hover */
+}
+
+.pizza-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
   
   main {
     background-color: #ffffff;
@@ -115,9 +159,15 @@ body {
     border-radius: 4px;
   }
   
+  #submit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
   button {
-    background-color: #4caf50;
+    background: linear-gradient(to right, #ffac6f, #dcff5f, #ff0062);
     color: #fff;
+    width: 130px;
     padding: 10px;
     border: none;
     border-radius: 4px;
@@ -126,5 +176,12 @@ body {
   
   button:hover {
     background-color: #45a049;
+  }
+  footer{
+    background: linear-gradient(to right, #e7ff8e, #000000, #1cef97);
+    padding: 15px 0;
+    text-align: center;
+    width: 800px;
+    margin: 20px;
   }
   
