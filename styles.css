@@ -1,187 +1,198 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #ffac6f, #dcff5f, #ff0062);
-  }
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  header {
-    background: linear-gradient(to right, #e7ff8e, #000000, #1cef97);
-    padding: 15px 0;
-    text-align: center;
-    width: 800px;
-    margin: 20px;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #ffac6f, #dcff5f, #ff0062);
+}
+
+header {
+  background: linear-gradient(to right, #e7ff8e, #000000, #1cef97);
+  padding: 15px 0;
+  text-align: center;
+  width: 800px;
+  margin: 20px;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #d14836; /* Darker tomato color on hover */
+  background-color: #d14836; 
 }
 
 .pizza-icon {
-    font-size: 24px;
-    margin-right: 10px;
+  font-size: 24px;
+  margin-right: 10px;
 }
-  
-  main {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-    width: 700px;
-  }
-  .img{display: flex;
-       padding: 10px;
 
-  }
+main {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-  #span {
-    font-size: medium;
-    margin: 3px;
-    font-weight: bold;
-  }
+  width: 700px;
+}
+.img {
+  display: flex;
+  padding: 10px;
+}
 
-  #dropdown{
+#span {
+  font-size: medium;
+  margin: 3px;
+  font-weight: bold;
+}
 
-    width: 40px;
-  }
-  #opt{
-    margin-left: 15px;
-    font-size: small;
-    font-weight: bold;
-     
-  }
-  #pizza{ 
-    border: 1px solid #ccc;
-    margin-left: 15px;
-  }
-  h1 {
-    text-align: center;
-    color: #333;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  fieldset {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  }
-  
-  legend {
-    font-weight: bold;
-  }
-  
-  label {
-    margin-bottom: 8px;
-  }
-  
-  .input1{ display: grid;
-     
-  }
+#dropdown {
+  width: 40px;
+}
+#opt {
+  margin-left: 15px;
+  font-size: small;
+  font-weight: bold;
+}
+#pizza {
+  border: 1px solid #ccc;
+  margin-left: 15px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
 
-  #pickup{
-      display: flex;
-         
-  }
-  #date{
-    width: 250px;
-  }
-  #time{
-    width: 250px;
-    margin-left: 20px;
-  }
+form {
+  display: flex;
+  flex-direction: column;
+}
 
-  #fname{ width: 250px;}
-  #lname{width: 250px;
-    margin-left: 20px;}
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 
-    #phone{width: 540px;}
-    #add1{width: 250px}
-    #add2{width: 250px;
-          margin-left: 20px;
-          
-    }
-        
-    #city{width: 250px}
-    #postal{width: 250px;
-      margin-left: 20px;
-    }
+legend {
+  font-weight: bold;
+}
 
-      #country{
-        width: 270px;
-        padding: 8px;
-    margin-bottom: 12px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    height: 35px;
-      }
-  input,
-  select {
-    padding: 8px;
-    margin-bottom: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  #submit{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-  }
-  button {
-    background: linear-gradient(to right, #ffac6f, #dcff5f, #ff0062);
-    color: #fff;
-    width: 130px;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  footer{
-    background: linear-gradient(to right, #e7ff8e, #000000, #1cef97);
-    padding: 15px 0;
-    text-align: center;
-    width: 800px;
-    margin: 20px;
-  }
-  
+label {
+  margin-bottom: 8px;
+}
+
+.input1 {
+  display: grid;
+}
+
+#pickup {
+  display: flex;
+}
+#date {
+  width: 250px;
+}
+#time {
+  width: 250px;
+  margin-left: 20px;
+}
+
+#fname {
+  width: 250px;
+}
+#lname {
+  width: 250px;
+  margin-left: 20px;
+}
+
+#phone {
+  width: 540px;
+}
+#add1 {
+  width: 250px;
+}
+#add2 {
+  width: 250px;
+  margin-left: 20px;
+}
+
+#city {
+  width: 250px;
+}
+#postal {
+  width: 250px;
+  margin-left: 20px;
+}
+
+#country {
+  width: 270px;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  height: 35px;
+}
+input,
+select {
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#submit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+button {
+  background: linear-gradient(to right, #ffac6f, #dcff5f, #ff0062);
+  color: #fff;
+  width: 130px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d14836;
+}
+footer {
+  background: linear-gradient(to right, #e7ff8e, #000000, #1cef97);
+  padding: 15px 0;
+  text-align: center;
+  width: 800px;
+  margin: 20px;
+}
+
+#foot{
+  color: #ffffff;
+}

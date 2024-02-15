@@ -1,170 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- author-- Gbolahan Abdulrahman -->
+    <!-- 02-13-2024 -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <!-- Add FontAwesome library l iiiiink -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
     <title>Pizza Order Form</title>
-</head>
+  </head>
 
-<body>
-    <Header>
-        <nav>
-            <ul>
-        <li><a href="http://">Home page</a></li>
-        <li><a href="http://">About Us</a></li>
-        <li><a href="http://">Pick Up</a></li>
-        <li><a href="http://">Contact Us</a></li>
-    </ul>
-    </nav>
-    </Header>
-    
+  <body>
+    <!-- HEADER  -->
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="http://">Home page</a></li>
+          <li><a href="http://">About Us</a></li>
+          <li><a href="http://">Pick Up</a></li>
+          <li><a href="http://">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
     <main>
-
-        <form action="./process.php" method="get">
-            
-            <img src="./img/pizza.png" alt="">
-            <fieldset>
-
-
-                <div class="img">
-                    <section >
-                        <input type="checkbox" name="pizza" id="pizza"><span id="span">Pizza Neapolitan</span>
-                        <img src="./img/pizza-assortment-set_1284-20110.jpg"
-                            alt="" width="200" height="200">
-                            <section id="opt">
-                            <span>Quantity</span> 
-                            <select id="dropdown">
-                                <option value="AF">1</option>
-                                <option value="AL">2</option>
-                                <option value="AF">3</option>
-                                <option value="ZW">4</option>
-                                <option value="ZW">5</option>
-                            </select>
-                            <span >Size</span>
-                            <select id="dropdown">
-                                <option value="AF">XL</option>
-                                <option value="AL">L</option>
-                                <option value="AF">M</option>
-                                <option value="ZW">S</option>
-                                
-                            </select>
-                        </section>
-                    </section>
-                    <section>
-                        <input type="checkbox" name="pizza" id="pizza"><span id="span">Pizza Mare e Monti</span>
-
-                        <img src="./img/pizza-assortment-set_1284-20110 copy.jpg"
-                            alt="" width="200" height="200"> 
-                            <section id="opt">
-                                <span>Quantity</span> 
-                                <select id="dropdown">
-                                    <option value="AF">1</option>
-                                    <option value="AL">2</option>
-                                    <option value="AF">3</option>
-                                    <option value="ZW">4</option>
-                                    <option value="ZW">5</option>
-                                </select>
-                                <span >Size</span>
-                                <select id="dropdown">
-                                    <option value="AF">XL</option>
-                                    <option value="AL">L</option>
-                                    <option value="AF">M</option>
-                                    <option value="ZW">S</option>
-                                    
-                                </select>
-                            </section>
-                    </section>
-                    <section>
-                        <input type="checkbox" name="pizza" id="pizza"><span id="span">Pizza Pepperoni</span>
-                        <img src="./img/pizza-assortment-set_1284-20110 copy 2.jpg"
-                            alt="" width="200" height="200">
-                            <section id="opt">
-                                <span>Quantity</span> 
-                                <select id="dropdown">
-                                    <option value="AF">1</option>
-                                    <option value="AL">2</option>
-                                    <option value="AF">3</option>
-                                    <option value="ZW">4</option>
-                                    <option value="ZW">5</option>
-                                </select>
-                                <span >Size</span>
-                                <select id="dropdown">
-                                    <option value="AF">XL</option>
-                                    <option value="AL">L</option>
-                                    <option value="AF">M</option>
-                                    <option value="ZW">S</option>
-                                    
-                                </select>
-                            </section>
-                    </section>
-                </div>
-            </fieldset>
-          <fieldset>
-            <section class="input1">
-                <label for="date"><i class="far fa-clock"></i> Pickup Date and Time</label>
-                <section id="pickup">
-                <input type="date" name="date" id="date" >
-                
-                <input type="time" name="time" id="time" >
-            
+      <form action="..php" method="get">
+        <img src="./img/pizza.png" alt="" />
+        <fieldset>
+          <div class="img">
+            <section>
+              <input type="checkbox" name="pizza" id="pizza" /><span id="span"
+                >Pizza Neapolitan</span
+              >
+              <img
+                src="./img/pizza-assortment-set_1284-20110.jpg"
+                alt=""
+                width="200"
+                height="200"
+              />
+              <section id="opt">
+                <span>Quantity</span>
+                <select id="dropdown">
+                  <option value="AF">1</option>
+                  <option value="AL">2</option>
+                  <option value="AF">3</option>
+                  <option value="ZW">4</option>
+                  <option value="ZW">5</option>
+                </select>
+                <span>Size</span>
+                <select id="dropdown">
+                  <option value="AF">XL</option>
+                  <option value="AL">L</option>
+                  <option value="AF">M</option>
+                  <option value="ZW">S</option>
+                </select>
+              </section>
             </section>
-            </section>
+            <section>
+              <input type="checkbox" name="pizza" id="pizza" /><span id="span"
+                >Pizza Mare e Monti</span
+              >
 
-            <section class="input1">
-                <label for="text"><i class="fas fa-user"></i> Full Name</label>
-                <section id="pickup">
-                <input type="text" name="text" id="fname" placeholder="First name" >
-                <input type="text" name="name" id="lname" placeholder="Last name">
+              <img
+                src="./img/pizza-assortment-set_1284-20110 copy.jpg"
+                alt=""
+                width="200"
+                height="200"
+              />
+              <section id="opt">
+                <span>Quantity</span>
+                <select id="dropdown">
+                  <option value="AF">1</option>
+                  <option value="AL">2</option>
+                  <option value="AF">3</option>
+                  <option value="ZW">4</option>
+                  <option value="ZW">5</option>
+                </select>
+                <span>Size</span>
+                <select id="dropdown">
+                  <option value="AF">XL</option>
+                  <option value="AL">L</option>
+                  <option value="AF">M</option>
+                  <option value="ZW">S</option>
+                </select>
+              </section>
             </section>
+            <section>
+              <input type="checkbox" name="pizza" id="pizza" /><span id="span"
+                >Pizza Pepperoni</span
+              >
+              <img
+                src="./img/pizza-assortment-set_1284-20110 copy 2.jpg"
+                alt=""
+                width="200"
+                height="200"
+              />
+              <section id="opt">
+                <span>Quantity</span>
+                <select id="dropdown">
+                  <option value="AF">1</option>
+                  <option value="AL">2</option>
+                  <option value="AF">3</option>
+                  <option value="ZW">4</option>
+                  <option value="ZW">5</option>
+                </select>
+                <span>Size</span>
+                <select id="dropdown">
+                  <option value="AF">XL</option>
+                  <option value="AL">L</option>
+                  <option value="AF">M</option>
+                  <option value="ZW">S</option>
+                </select>
+              </section>
             </section>
+          </div>
+        </fieldset>
+        <fieldset>
+          <section class="input1">
+            <label for="date"
+              ><i class="far fa-clock"></i> Pickup Date and Time</label
+            >
+            <section id="pickup">
+              <input type="date" name="date" id="date" />
 
-            <section class="input1">
-                <label for="phone"><i class="fas fa-phone-alt"></i> Phone</label>
-                <input type="number" name="phone" id="phone"  required>
-                <label for="email"><i class="far fa-envelope"></i> Email</label>
-                <input type="email" name="email" id="phone" required >
+              <input type="time" name="time" id="time" />
             </section>
+          </section>
 
-            <section class="input1">
-                
-                <label for="add"><i class="fas fa-map-marker-alt"></i> Address</label>
-                <section id="pickup">
-                <input type="text" name="address" id="add1" placeholder="Address">
-                <input type="text" name="address" id="add2" placeholder="Address Line 2">
+          <section class="input1">
+            <label for="text"><i class="fas fa-user"></i> Full Name</label>
+            <section id="pickup">
+              <input
+                type="text"
+                name="text"
+                id="fname"
+                placeholder="First name"
+              />
+              <input
+                type="text"
+                name="name"
+                id="lname"
+                placeholder="Last name"
+              />
+            </section>
+          </section>
+
+          <section class="input1">
+            <label for="phone"><i class="fas fa-phone-alt"></i> Phone</label>
+            <input type="number" name="phone" id="phone" required />
+            <label for="email"><i class="far fa-envelope"></i> Email</label>
+            <input type="email" name="email" id="phone" required />
+          </section>
+
+          <section class="input1">
+            <label for="add"
+              ><i class="fas fa-map-marker-alt"></i> Address</label
+            >
+            <section id="pickup">
+              <input
+                type="text"
+                name="address"
+                id="add1"
+                placeholder="Address"
+              />
+              <input
+                type="text"
+                name="address"
+                id="add2"
+                placeholder="Address Line 2"
+              />
             </section>
             <section id="pickup">
-                <input type="text" name="address" id="city" placeholder="City">
-                <input type="text" name="address" id="postal" placeholder="Postal Code">
+              <input type="text" name="address" id="city" placeholder="City" />
+              <input
+                type="text"
+                name="address"
+                id="postal"
+                placeholder="Postal Code"
+              />
             </section>
-                <select name="country" id="country">
-                    <option value="ca"><i class="fas fa-globe"></i> Select Province</option>
-  <option value="AB">Alberta</option>
-  <option value="BC">British Columbia</option>
-  <option value="MB">Manitoba</option>
-  <option value="NB">New Brunswick</option>
-  <option value="NL">Newfoundland and Labrador</option>
-  <option value="NS">Nova Scotia</option>
-  <option value="ON">Ontario</option>
-  <option value="PE">Prince Edward Island</option>
-  <option value="QC">Quebec</option>
-  <option value="SK">Saskatchewan</option>
-</select>
-                
-            </section>
+            <select name="country" id="country">
+              <option value="ca">
+                <i class="fas fa-globe"></i> Select Province
+              </option>
+              <option value="AB">Alberta</option>
+              <option value="BC">British Columbia</option>
+              <option value="MB">Manitoba</option>
+              <option value="NB">New Brunswick</option>
+              <option value="NL">Newfoundland and Labrador</option>
+              <option value="NS">Nova Scotia</option>
+              <option value="ON">Ontario</option>
+              <option value="PE">Prince Edward Island</option>
+              <option value="QC">Quebec</option>
+              <option value="SK">Saskatchewan</option>
+            </select>
+          </section>
         </fieldset>
-          <section id="submit">
-            <button type="submit"> Submit</button>
+        <section id="submit">
+          <button type="submit">Submit</button>
         </section>
-        </form>
+      </form>
     </main>
+
+    <!-- FOOTER SECTION -->
     <footer>
-        document 
+        <section id="foot">
+            &copy; Pizza Order. All rights reserved.
+        </section> 
+
     </footer>
-
-</body>
-
+  </body>
 </html>
