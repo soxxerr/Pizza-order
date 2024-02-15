@@ -151,6 +151,13 @@ label {
   margin-left: 20px;
 }
 
+#textarea{
+width: 540px;
+padding: 8px;
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 #country {
   width: 270px;
   padding: 8px;
